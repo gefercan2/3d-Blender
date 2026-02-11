@@ -51,9 +51,13 @@ Optimization: VR is demanding because it has to render the world twice (once for
 
 
 #### Week 3: Interaction (Meta Quest Integration)
-Day 15-16: Setup the Meta XR All-in-One SDK in Unity. Follow the "Project Validation" steps to fix errors. 
-Day 17-19: The Player Rig. Replace the default camera with the OVRCameraRig. Enable Teleportation and Continuous Move.
-Day 20-21: Grabbing. Add "Grabbable" scripts to the models you made in Blender. Test them using the "XR Simulation" (no headset needed yet). 
+| Week | Day | Topic | Goal |
+| --- | --- | --- | --- |
+| **Week 3** | 15-16 | Meta XR SDK Setup | Install the Meta XR All-in-One SDK in Unity and resolve "Project Validation" errors. |
+| **Week 3** | 17-19 | The Player Rig | Replace default cameras with `OVRCameraRig` and configure Teleportation/Continuous Move. |
+| **Week 3** | 20-21 | Grabbing & Interaction | Add "Grabbable" scripts to Blender models and test via XR Simulation. |
+
+Would you like me to walk you through the specific **Project Validation** settings you'll need to toggle for the Quest to work properly?
 #### Why: The Connection (Meta SDK & VR Rig)
 The Logic: This is where you translate human movement into digital movement.
 The SDK (Software Development Kit): This is a "translator" provided by Meta. It tells Unity how to talk to the Quest’s cameras and sensors.
@@ -63,10 +67,14 @@ Locomotion: Since your real room is smaller than your virtual world, you need lo
 
 
 #### Week 4: The Final App & Deployment
-Day 22-24: Design the "Interaction." Make a button that turns on a light or a door that opens when grabbed. 
-Day 25-27: UI & Sound. Create a floating world-space menu. Add a "click" sound when you touch a button. 
-Day 28-29: Optimization. Switch your build platform to Android (Quest runs on Android). Fix any "Red" errors in Project Settings. 
-Day 30: The Big Build. Connect your Quest via USB, hit "Build and Run," and put on the headset!
+| Week | Day | Topic | Goal |
+| --- | --- | --- | --- |
+| **Week 4** | 22-24 | Interaction Design | Create interactive objects like buttons or doors using grab triggers. |
+| **Week 4** | 25-27 | UI & Sound | Build a world-space menu and add spatial audio feedback for interactions. |
+| **Week 4** | 28-29 | Optimization | Switch platform to Android and resolve Project Setting errors for Quest. |
+| **Week 4** | 30 | The Big Build | Perform a final "Build and Run" to test the project on the headset. |
+
+Since you've moved into VR-specific territory (Quest/Android), would you like me to provide the specific **Build Settings** checklist for Meta Quest to ensure your Day 30 goes smoothly?
 #### Why: The Interaction & Deployment
 The Logic: This turns a "movie" into an "experience."
 Physics & Triggers: You'll learn the difference between a Collider (stops you from walking through walls) and a Trigger (an invisible zone that starts an event when you walk into it).
