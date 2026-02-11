@@ -1,11 +1,12 @@
 ROADMAP
-Here is your 4-week roadmap to go from zero to a functioning VR prototype.Month 1: The VR Creator Sprint,,,
+
 
 Week,Phase,Focus,Key Milestones
 Week 1,The Engines,Software setup & 3D basics,Install Unity & Blender  move objects basic C# scripts.
 Week 2,The Assets,Modeling in Blender,Create a low-poly room & 1 interactive prop (e.g., a lever).
 Week 3,The VR Part,Meta SDK & Interactions,Setup Meta XR SDK teleporting; grabbing objects.
 Week 4,The Build,Polish & Deployment,Add sound/UI  build the APK to your Quest; final testing.
+
 
 
 
