@@ -24,6 +24,15 @@ Week 4	The Build	Polish & Deployment	Add sound/UI; build the APK to your Quest; 
 Day 1-2: Install Unity Hub and Unity 2022.3 LTS (or latest). Learn to navigate the 3D viewport (Move, Rotate, Scale). 
 Day 3-4: Learn "Parenting" objects and the Inspector window.
 Day 5-7: Coding Basics. Watch "C# in 10 minutes" tutorials. Practice writing a script that moves a cube when you press a key. 
+Here is that information organized into a plain text Markdown table:
+
+| Week | Day | Topic | Goal |
+| --- | --- | --- | --- |
+| **Week 1** | 1-2 | Installation & Navigation | Install Unity Hub/LTS and master the 3D viewport (Move, Rotate, Scale). |
+| **Week 1** | 3-4 | Hierarchy & Inspector | Learn to "Parent" objects and manipulate properties in the Inspector window. |
+| **Week 1** | 5-7 | Coding Basics | Watch C# tutorials and script a cube to move via key presses. |
+
+Would you like me to write the specific **C# script** for the Day 5-7 goal so you have it ready to go?
 #### Why: The Engine (Unity & C#)
 The Logic: Unity is your "World Builder." Before you can add VR, you need to understand how 3D space works.
 The Inspector: Think of this as the "Properties" menu. Every object (a chair, a light, a player) has components like position or weight. You learn this first so you know how to manipulate the world.
