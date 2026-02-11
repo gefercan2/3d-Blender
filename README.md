@@ -89,22 +89,8 @@ Asset Store: Don't model everything. Use the Unity Asset Store for complex thing
 Developer Mode: Ensure your Quest is in "Developer Mode" (via the Meta Horizon mobile app) on Day 1, or you won't be able to test your app.
 
 
-
-
 ### WHY
 To understand the "why" behind the "how," it helps to think of this process like building a smart house: you need the foundation (Unity), the furniture (Blender), and the electricity/plumbing (Interaction Logic).
-
-Here is the logic behind each phase of your learning journey:
-
-
-
-
-
-
-
-
-
-
 
 
 
