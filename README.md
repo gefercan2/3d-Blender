@@ -1,7 +1,7 @@
 # 3d-Blender
 
-#Idea for learning path
-META/VR/BLENDER/UNITY
+###Idea for learning path
+###META/VR/BLENDER/UNITY
 Building an interactive VR app for the Meta Quest in 30 days is a sprint, but absolutely doable if you focus on the "need-to-know" essentials. By splitting your hour into 45 minutes of active learning/building and 15 minutes of troubleshooting or "play," you can stay consistent without burning out.
 
 
