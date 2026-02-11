@@ -58,19 +58,19 @@ To understand the "why" behind the "how," it helps to think of this process like
 
 Here is the logic behind each phase of your learning journey:
 
-## Week 1: The Engine (Unity & C#)
+#### Week 1: The Engine (Unity & C#)
 The Logic: Unity is your "World Builder." Before you can add VR, you need to understand how 3D space works.
 The Inspector: Think of this as the "Properties" menu. Every object (a chair, a light, a player) has components like position or weight. You learn this first so you know how to manipulate the world.
 C# Scripting: This is the "Brain." Without code, a ball is just a picture of a ball. With code, you tell the computer: "If the user triggers this, then move the ball."
 
 
-## Week 2: The Physicality (Blender)
+#### Week 2: The Physicality (Blender)
 The Logic: Unity is great at logic, but it’s terrible at "sculpting."
 Modeling: You use Blender to define the geometry of your world. Unity’s built-in shapes (cubes/spheres) are too simple for a real app.
 Optimization: VR is demanding because it has to render the world twice (once for each eye) at 72–120 frames per second. Learning Blender allows you to create "Low-Poly" models that look good but don't crash the headset.
 
 
-## Week 3: The Connection (Meta SDK & VR Rig)
+#### Week 3: The Connection (Meta SDK & VR Rig)
 The Logic: This is where you translate human movement into digital movement.
 
 The SDK (Software Development Kit): This is a "translator" provided by Meta. It tells Unity how to talk to the Quest’s cameras and sensors.
@@ -78,7 +78,7 @@ The Rig: In a normal game, the "Player" is just a camera. In VR, the "Rig" is a 
 Locomotion: Since your real room is smaller than your virtual world, you need logic for Teleportation—a way to move without getting motion sick.
 
 
-## Week 4: The Interaction & Deployment
+#### Week 4: The Interaction & Deployment
 The Logic: This turns a "movie" into an "experience."
 Physics & Triggers: You'll learn the difference between a Collider (stops you from walking through walls) and a Trigger (an invisible zone that starts an event when you walk into it).
 The APK: Since the Quest is essentially a powerful Android phone strapped to your face, you have to "Compile" your project. This turns your thousands of files into one single .apk file that the headset can run.
