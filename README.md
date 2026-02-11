@@ -20,22 +20,22 @@ Week 4	The Build	Polish & Deployment	Add sound/UI; build the APK to your Quest; 
 
 ### DAILY BREAKDOWN (1 Hour Per Day)
 
-## Week 1: Foundations (Unity & C#)
+# Week 1: Foundations (Unity & C#)
 Day 1-2: Install Unity Hub and Unity 2022.3 LTS (or latest). Learn to navigate the 3D viewport (Move, Rotate, Scale). 
 Day 3-4: Learn "Parenting" objects and the Inspector window.
 Day 5-7: Coding Basics. Watch "C# in 10 minutes" tutorials. Practice writing a script that moves a cube when you press a key. 
 
-## Week 2: 3D Modeling (Blender)
+# Week 2: 3D Modeling (Blender)
 Day 8-9: Blender Basics. Learn the "G" (Grab), "R" (Rotate), and "S" (Scale) shortcuts.
 Day 10-12: Model a simple "VR Lab" (4 walls and a table). Use Extrude (E) and Loop Cut (Ctrl+R).
 Day 13-14: Materials & Exporting. Color your objects and export them as .fbx files into your Unity project. 
 
-## Week 3: Interaction (Meta Quest Integration)
+# Week 3: Interaction (Meta Quest Integration)
 Day 15-16: Setup the Meta XR All-in-One SDK in Unity. Follow the "Project Validation" steps to fix errors. 
 Day 17-19: The Player Rig. Replace the default camera with the OVRCameraRig. Enable Teleportation and Continuous Move.
 Day 20-21: Grabbing. Add "Grabbable" scripts to the models you made in Blender. Test them using the "XR Simulation" (no headset needed yet). 
 
-## Week 4: The Final App & Deployment
+# Week 4: The Final App & Deployment
 Day 22-24: Design the "Interaction." Make a button that turns on a light or a door that opens when grabbed. 
 Day 25-27: UI & Sound. Create a floating world-space menu. Add a "click" sound when you touch a button. 
 Day 28-29: Optimization. Switch your build platform to Android (Quest runs on Android). Fix any "Red" errors in Project Settings. 
