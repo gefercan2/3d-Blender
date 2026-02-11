@@ -1,0 +1,6 @@
+VISUAL MAP
+Step	Software	Logic Role
+1. Create	Blender	"What does it look like?" (Mesh/Texture)
+2. Import	Unity	"Where does it sit in the world?" (Transform)
+3. Program	C# / SDK	"What happens when I touch it?" (Behavior)
+4. Build	Android Build Tools	"Pack it all up for the headset." (Deployment)
