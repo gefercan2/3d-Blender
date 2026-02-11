@@ -36,9 +36,13 @@ C# Scripting: This is the "Brain." Without code, a ball is just a picture of a b
 
 
 #### Week 2: 3D Modeling (Blender)
-Day 8-9: Blender Basics. Learn the "G" (Grab), "R" (Rotate), and "S" (Scale) shortcuts.
-Day 10-12: Model a simple "VR Lab" (4 walls and a table). Use Extrude (E) and Loop Cut (Ctrl+R).
-Day 13-14: Materials & Exporting. Color your objects and export them as .fbx files into your Unity project. 
+| Week | Day | Topic | Goal |
+| --- | --- | --- | --- |
+| **Week 2** | 8-9 | Blender Basics | Learn essential shortcuts: **G** (Grab), **R** (Rotate), and **S** (Scale). |
+| **Week 2** | 10-12 | Modeling | Build a "VR Lab" (walls and table) using **Extrude (E)** and **Loop Cut (Ctrl+R)**. |
+| **Week 2** | 13-14 | Materials & Exporting | Apply colors and export assets as **.fbx** files for use in Unity. |
+
+Would you like me to create a similar breakdown for the Unity-specific portion of your project?
 #### Why: The Physicality (Blender)
 The Logic: Unity is great at logic, but it’s terrible at "sculpting."
 Modeling: You use Blender to define the geometry of your world. Unity’s built-in shapes (cubes/spheres) are too simple for a real app.
