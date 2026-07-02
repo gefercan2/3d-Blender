@@ -7,17 +7,19 @@ Building an interactive VR app for the Meta Quest in 30 days is a sprint, but ab
 ### The Core Insight: 
 #### Read the Stack as Geology, Not a List
 Think of the Unity/XR stack as sedimentary layers. The deeper the layer, the slower it moves. When you feel turbulence, it's almost always in the upper layers — but those upper layers are what most tutorials and SDKs expose first.
+
+_____________________________
  
-│  Templates, samples, Asset Store SDKs    ← Most volatile
-│  Vendor feature packages                │
-│  (Meta XR Core SDK, MRTK, etc.)         │
-│  Provider plugins                       │
-│  (Meta OpenXR plugin, ARCore plugin)    │
+│  Templates, samples, Asset Store SDKs    ← Most volatile   <br>
+│  Vendor feature packages                <br>
+│  (Meta XR Core SDK, MRTK, etc.)         <br>
+│  Provider plugins                        <br>
+│  (Meta OpenXR plugin, ARCore plugin)     <br>
 _________
-│  Engine abstraction layer    ← Moderately stable
-│  (AR Foundation, XR Plugin Management) 
+│  Engine abstraction layer    ← Moderately stable   <br>
+│  (AR Foundation, XR Plugin Management)  <br>
 _________
-│  Open standards (OpenXR, Khronos)  ← Very stable
+│  Open standards (OpenXR, Khronos)  ← Very stable   <br>
 │  Hardware + OS   ← Slowest to change
 
 
