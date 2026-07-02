@@ -23,10 +23,10 @@ _________
 │  Hardware + OS   ← Slowest to change
 
 
-Heuristic #1: Build as deep into stable layers as your feature requirements allow. Every layer you skip downward is deprecation risk you shed.
+## Heuristic #1: Build as deep into stable layers as your feature requirements allow. Every layer you skip downward is deprecation risk you shed.
 The practical corollary: if you can express your intent through AR Foundation instead of ARCore directly, do it. If you can target OpenXR instead of the Oculus XR Plugin, do it. You trade some vendor-specific features for longevity, and that's usually the right trade for anything that isn't a cutting-edge capability.
 
-Heuristic #2: Distinguish "What Changed" from "Why It Changed"
+## Heuristic #2: Distinguish "What Changed" from "Why It Changed"
 Most developers track what changed. The durable skill is tracking why, because the why reveals the next move before it happens.
 The pattern across every major Unity/XR shift has been the same:
 
@@ -39,7 +39,7 @@ Built-in VR → XR Plugin Management → provider plugins implementing it
 
 Every time a field matures enough, a standards body formalizes it and the vendors reposition above or below the standard. So when you see a vendor SDK getting heavy investment and new features, that's the volatile phase. When you see a Khronos spec or a Unity abstraction layer absorbing those features, that's the stabilization phase. The standardization event is the signal to migrate, not the deprecation notice.
 
-Heuristic #3: "Recommended for New Projects" Is the Strongest Early Warning System
+## Heuristic #3: "Recommended for New Projects" Is the Strongest Early Warning System
 Unity and Meta both use careful language in their docs. The phrase "recommended for new projects" applied to a replacement is the earliest reliable signal that its predecessor has a 1–2 major version lifespan left. It appears before a formal deprecation warning, and well before a breaking change.
 Watch for these in release notes and migration guides:
 
@@ -50,7 +50,7 @@ A migration guide appearing without a deprecation notice → structural change i
 
 The Oculus XR Plugin got "no new platform features will be added" language before it got a formal deprecation tag. Meta XR SDKs v74+ made this explicit. That was the real signal, months before anything broke.
 
-Heuristic #4: Taxonomy Shifts Signal Paradigm Shifts, Not Just Renames
+## Heuristic #4: Taxonomy Shifts Signal Paradigm Shifts, Not Just Renames
 This is your exact observation, and it's the most important one. When the category name changes — not just the class name — you're looking at a conceptual restructuring, and no amount of find-and-replace will save you.
 The diagnostic question: "Has the number of moving parts increased or decreased?"
 
@@ -60,12 +60,12 @@ XR Plugin Management: build target + provider plugin + feature sets + subsystems
 The number of concepts went up, which means the old model was an oversimplification that collapsed distinctions the new model now makes explicit. This always means the migration is architectural, not syntactic.
 Practical heuristic: When you see a single concept replaced by a hierarchy (e.g., "VR" becoming "XR Provider + Subsystem + Feature Set"), immediately draw that hierarchy on paper and ask: which layer am I actually depending on? Then couple your code to the deepest stable layer in that hierarchy, not the topmost convenient one.
 
-Heuristic #5: The Package Manager Migration Pattern
+## Heuristic #5: The Package Manager Migration Pattern
 Unity has a reliable signal in its packaging behavior:
 EventWhat it meansFeature moves from built-in to a packageBeing isolated — modular removal is now possiblePackage gets a 2.0 or major version bumpArchitecture change, not just API change. Read the changelog as if it's a new productPackage enters "verified" statusStable enough to anchor toPackage exits "preview"About 1 LTS cycle before it becomes the defaultA new package appears that does "the same thing"The old one will die. The new one is where investment is going
 AR Foundation absorbing ARCore and ARKit was preceded by exactly this pattern — separate packages, then a verified unified abstraction, then the direct-vendor path quietly softened.
 
-Heuristic #6: The Abstraction Cost/Deprecation Risk Tradeoff Is Explicit and Should Be Documented
+## Heuristic #6: The Abstraction Cost/Deprecation Risk Tradeoff Is Explicit and Should Be Documented
 Every feature you use from a vendor-specific layer (Meta XR Core SDK, MRTK, etc.) should be logged in a "coupling register" — a simple doc that says: this feature comes from this layer, the abstraction alternative is X (or: no abstraction exists yet). This is less overhead than it sounds and enormously clarifies your risk surface when a deprecation hits.
 The register entries look like:
 Feature: Hand tracking mesh rendering
