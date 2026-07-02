@@ -7,22 +7,20 @@ Building an interactive VR app for the Meta Quest in 30 days is a sprint, but ab
 ### The Core Insight: 
 #### Read the Stack as Geology, Not a List
 Think of the Unity/XR stack as sedimentary layers. The deeper the layer, the slower it moves. When you feel turbulence, it's almost always in the upper layers — but those upper layers are what most tutorials and SDKs expose first.
-┌─────────────────────────────────────────┐  ← Most volatile
-│  Templates, samples, Asset Store SDKs   │
-├─────────────────────────────────────────┤
+ 
+│  Templates, samples, Asset Store SDKs    ← Most volatile
 │  Vendor feature packages                │
 │  (Meta XR Core SDK, MRTK, etc.)         │
-├─────────────────────────────────────────┤
 │  Provider plugins                       │
 │  (Meta OpenXR plugin, ARCore plugin)    │
-├─────────────────────────────────────────┤
-│  Engine abstraction layer               │  ← Moderately stable
-│  (AR Foundation, XR Plugin Management) │
-├─────────────────────────────────────────┤
-│  Open standards (OpenXR, Khronos)       │  ← Very stable
-├─────────────────────────────────────────┤
-│  Hardware + OS                          │  ← Slowest to change
-└─────────────────────────────────────────┘
+_________
+│  Engine abstraction layer    ← Moderately stable
+│  (AR Foundation, XR Plugin Management) 
+_________
+│  Open standards (OpenXR, Khronos)  ← Very stable
+│  Hardware + OS   ← Slowest to change
+
+
 Heuristic #1: Build as deep into stable layers as your feature requirements allow. Every layer you skip downward is deprecation risk you shed.
 The practical corollary: if you can express your intent through AR Foundation instead of ARCore directly, do it. If you can target OpenXR instead of the Oculus XR Plugin, do it. You trade some vendor-specific features for longevity, and that's usually the right trade for anything that isn't a cutting-edge capability.
 
